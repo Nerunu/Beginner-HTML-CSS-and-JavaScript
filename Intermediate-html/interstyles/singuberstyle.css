@@ -1,0 +1,91 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.id{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: rgb(182, 182, 182);
+    padding-left: 8px;
+    font-size: 14px;
+    width: 140px;
+    height: 38px;
+}
+.email{
+    display: block;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: rgb(182, 182, 182);
+    padding-left: 8px;
+    font-size: 14px;
+    width: 297px;
+    height: 38px;
+}
+.singup{
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(71, 144, 204);
+    color: white;
+    height: 48px;
+    width: 308px;
+    transition: background-color 0.15s, height 0.15s;
+    cursor: pointer;
+}
+.singup:hover{
+    background-color: rgb(58, 108, 148);
+    height: 52px;
+}
+
+.tittle{
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+.data{
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 16px;
+    height: 38px;
+    width: 300px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.233);
+}
+.uber{
+    margin-top: 40px;
+    margin-right: 10px;
+    background-color: rgb(36, 34, 34);
+    border: none;
+    color: white;
+    border-radius: 1px;
+    height: 45px;
+    width: 120px;  
+    cursor: pointer;
+    margin-right: 20px;
+    transition: opacity 0.15s;
+    }
+    .uber:hover {
+        opacity: 0.8;
+    }
+    .uber:active {
+        opacity: 0.6;
+    }
+
+.later{
+    background-color: rgba(128, 128, 128, 0.233);
+    height: 45px;
+    width: 120px; 
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.15s;
+}
+.later:hover{
+    background-color: rgba(128, 128, 128, 0.432);
+}

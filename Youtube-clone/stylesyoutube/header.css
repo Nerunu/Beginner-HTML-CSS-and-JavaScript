@@ -1,0 +1,174 @@
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 55px;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(228, 228, 228);
+    z-index: 100;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.hamburger, .youtube{
+    cursor: pointer;
+    height: 24px;
+    margin-left: 24px;
+}
+
+.middle{
+    display: flex;
+    flex: 1;
+    max-width: 470px;
+    margin-left: 70px;
+    margin-right: 35px;
+    align-items: center;
+}
+.searchbar, .searchbutton, .micbutton{
+    height: 32px;
+    border-color: rgb(192, 192, 192);
+    border-style: solid;
+    border-width: 1px;
+}
+.searchbar{
+    flex: 1;
+    min-width: 0px;
+    font-size: 16px;
+    padding-left: 16px;
+    box-shadow: inset 2px 4px 3px rgba(0, 0, 0, 0.05);
+}
+.searchbar::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.searchbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    width: 68px;
+    height: 36px;
+    margin-left: -1px;
+    margin-right: 10px;
+    transition: background-color 0.15s;
+}
+.micbutton{
+    display: flex;
+    background-color: rgb(246, 246, 246);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    transition: background-color 0.15s;
+    justify-content: center;
+    align-items: center;
+}
+.micbutton:hover, .searchbutton:hover{
+    background-color: rgb(228, 228, 228);
+}
+.micbutton:active, .searchbutton:active{
+    background-color: rgb(210, 210, 210);
+}
+.searchbutton .tooltip{
+    position: absolute;
+    bottom: -30px;
+    padding: 4px 6px 4px 6px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    transition: opacity 0.15s;
+    pointer-events: none;
+    opacity: 0;
+}
+.micbutton .tooltip{
+    position: absolute;
+    white-space: nowrap;
+    color: white;
+    padding: 4px 6px 4px 6px;
+    bottom: -30px;
+    background-color: rgba(128, 128, 128, 0.671);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+.searchicon, .micicon{
+    height: 26px;
+}
+.micbutton:hover .tooltip, .searchbutton:hover .tooltip{
+    opacity: 1;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.container{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    vertical-align: center;
+}
+.container .tooltip{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    bottom: -30px;
+    padding: 4px 6px 4px 6px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    transition: opacity 0.15s;
+    pointer-events: none;
+    opacity: 0;
+}
+.container:hover .tooltip, .container-notify:hover .tooltip{
+    opacity: 1;
+}
+
+.upload, .apps, .notify{
+    cursor: pointer;
+    margin-right: 26px;
+    height: 24px
+}
+.container-notify{
+    display: flex;
+    position: relative;
+    transition: opacity 0.15s;
+    align-items: bottom;
+}
+.container-notify .tooltip{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    bottom: -46px;
+    padding: 4px 6px 4px 6px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    transition: opacity 0.15s;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.notification{
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    top: -4px;
+    right: 22px;
+    cursor: default;
+    padding: 1px 4px 1px 4px;
+}
+.channelicon{
+    margin-right: 24px;
+    height: 34px;
+    cursor: pointer;
+}

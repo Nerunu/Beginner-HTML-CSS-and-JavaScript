@@ -1,0 +1,32 @@
+.sidebar{
+    background-color: white;
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 72px;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.15s;
+    height: 82px;
+    width: 72px;
+}
+.boxes img{
+    height: 24px;
+}
+.boxes p{
+    padding-top: 7px;
+    font-size: 10px;
+    cursor: default;
+}
+.boxes:hover{
+    background-color: rgb(228, 228, 228);
+}
+.boxes:active{
+    background-color: rgb(177, 177, 177);
+}

@@ -1,0 +1,9 @@
+.name, .email{
+    display: block;
+    margin-bottom: 6px;
+}
+.paragraph{
+    display: inline-block;
+    width: 250px;
+    vertical-align: middle;
+}

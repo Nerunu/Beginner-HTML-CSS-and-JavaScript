@@ -1,0 +1,63 @@
+.googlepage{
+    text-align: center;
+    width: 700px;
+    height: 300px;
+    border-style: solid;
+    border-color: red
+}
+.googlelogo{
+    width: 400px;
+    height: 110px;
+    object-fit: cover;
+}
+.googlesearch{
+    width: 400px;
+    height: 40px;
+    border: none;
+    box-shadow: 0.5px 1px 7px rgb(158, 158, 158);
+    border-radius: 35px;
+    padding-left: 15px;
+    padding-right: 165px;
+    font-size: 14px;
+    transition: box-shadow 0.15s;
+}
+.googlesearch:hover{
+     box-shadow: 0.5px 1px 7px rgb(121, 120, 120);
+}
+.gbutton{
+    background-color: rgb(237, 237, 237);
+    border: none;
+    width: 120px;
+    height: 50px;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.15s;
+}
+.gbutton:hover{
+    background-color: rgb(200, 200, 200);
+}
+.gbutton:active{
+    background-color: gray;
+}
+
+.gbutton2{
+    background-color: rgb(237, 237, 237);
+    border: none;
+    width: 148px;
+    height: 50px;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.15s;
+}
+.gbutton2:hover{
+    background-color: rgb(200, 200, 200);
+}
+.gbutton2:active{
+    background-color: gray;
+}

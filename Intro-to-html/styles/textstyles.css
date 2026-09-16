@@ -1,0 +1,43 @@
+
+    p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Arial;
+    }
+
+    .video-tittle{
+        font-weight: bold;
+        font-size: 18px;
+        width: 300px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+    .viewsandvisits{
+        font-size: 14px;
+        color: rgb(108, 117, 125);
+        margin-bottom: 20px;
+    }
+    .author{
+        font-size: 14px;
+        color: rgb(108, 117, 125);
+        margin-bottom: 20px;
+    }
+    .description{
+        font-size: 14px;
+        color: rgb(108, 117, 125);
+        width: 300px;
+        margin-bottom: 100px;
+    }
+    .appletext{
+        margin-bottom: 50px;
+        background-color: rgb(214, 77, 77);
+        color: white;
+        padding: 18px 20px;
+        border: none;
+        font-size: 14px;
+        text-align: center;
+    }
+    .shoplink:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }

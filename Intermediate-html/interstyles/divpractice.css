@@ -1,0 +1,58 @@
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.square{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+.circle{
+    display: inline-block;
+    border-radius: 20px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: green
+}
+
+.inline{
+    display: block;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    width: 300px;
+    height: 100px;
+}
+.service{
+    margin-left: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.check1{
+    margin-right: 6px;
+    margin-left: 18px;
+}
+
+.musicyt{
+    display: block;
+    width: 378px;
+    height: 100px;
+    border: none;
+    background-color: rgb(38, 38, 38);
+    margin-top: 10px;
+    padding-left: 18px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.install{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.description{
+    margin-top: 16px;
+    color: gray;
+}

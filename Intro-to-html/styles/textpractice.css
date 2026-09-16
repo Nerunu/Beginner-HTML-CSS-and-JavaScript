@@ -1,0 +1,81 @@
+   p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Arial;
+    }
+
+    .tahoma{
+        font-family: Tahoma;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .anounce{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 4px
+    }
+    .anounred{
+        font-style: italic;
+        color: red;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .coursetittle{
+        font-family: Verdana;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 2px
+    }
+    .coursescript{
+        font-size: 16px;
+        font-weight: bold;
+        color:rgb(110, 110, 110);
+        margin-bottom: 30px;
+    }
+    .coursedescription{
+        font-size: 15px;
+        width: 240px;
+        margin-bottom: 20px;
+    }
+    .startbutton{
+        border: none;
+        border-radius: 8px;
+        background-color: rgb(30, 161, 30);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 10px 18px;
+        margin-top: 20px;
+        transition: background-color 0.15s, opacity 0.15s, padding 0.15s;
+    }
+    .startbutton:hover{
+        background-color: green;
+        padding: 10px 80px;
+    }
+    .startbutton:active{
+        opacity: 0.6;
+    }
+
+    .shopinganunce{
+        font-size: 24px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .shopingdescription{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .shopinglink{
+        color: rgb(135, 166, 223);
+        text-align: center;
+    }
+    .shopinglink:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+

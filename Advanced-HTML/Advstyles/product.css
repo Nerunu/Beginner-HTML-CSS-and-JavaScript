@@ -1,0 +1,61 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.productkeyframe{
+    width: 250px;
+    height: 370px;
+    background-color: lightcoral;
+    border-radius: 7%;
+    position: fixed;
+}
+.clothes{
+    width: 250px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 15%;
+}
+.borderbottom{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 370px;
+    border-radius: 21px 21px 21px 21px;
+    transition: background-color 0.15s;
+}
+.borderbottom:hover{
+    background-color: rgba(255, 160, 122, 0.521);
+}
+.shop{
+    position: absolute;
+    bottom: 40px;
+    right: 85px;
+    background-color: rgba(255, 255, 255, 0.021);
+    border: solid white;
+    border-width: 1px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding: 2px 4px 2px 4px;
+    transition: background-color 0.15s, color 0.15s, padding 0.15s, opacity 0.15s;
+}
+.shop:hover{
+    background-color: white;
+    color: lightsalmon;
+    padding: 4px 6px 4px 6px;
+}
+.shop:active{
+    opacity: 0.6;
+}
+.discount{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 4px 6px 4px 6px;
+    font-weight: bold;
+    top: 30px;
+    cursor: default;
+    right: -10px;
+}

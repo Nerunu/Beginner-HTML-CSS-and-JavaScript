@@ -1,0 +1,41 @@
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.steven{
+    width: 200px;
+    border-radius: 20px;
+    transition: width 0.15s;
+}
+.steven:hover{
+    width: 400px;
+}
+
+.steven2{
+    height: 102px;
+    width: 100px;
+    object-fit: cover;
+    object-position: -44px;
+    margin-left: 40px;
+    transition: width 0.15s, height 0.15s, object-position 0.15s;
+}
+.steven2:hover{
+    width: 200px;
+    height: 202px;
+    object-position: -84px;
+}
+
+.steven3{
+    height: 104px;
+    width: 104px;
+    object-fit: cover;
+    border-radius: 82px;
+    margin-left: 100px;
+    transition: height 0.15s, width 0.15s, border-radius 0.15s;
+}
+.steven3:hover{
+    height: 204px;
+    width: 204px;
+    border-radius: 182px;
+}

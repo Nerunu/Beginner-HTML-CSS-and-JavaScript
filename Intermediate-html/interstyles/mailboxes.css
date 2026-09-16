@@ -1,0 +1,70 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.border{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.10);
+    height: 288px;
+    width: 456px;
+}
+.mailbox{
+    display: flex;
+    border: none;
+    height: 38px;
+    width: 450px;
+}
+.mail{
+    display: flex;
+    border: none;
+    height: 80px;
+    width: 450;
+    transition: background-color 0.15s;
+}
+.mail:hover{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.leftpfp{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+}
+.profilephoto{
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.middleandright{
+    flex: 1;
+    height: 80px;
+}
+.top{
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    justify-content: space-between;
+}
+.assunt{
+    font-size: 18px;
+    font-weight: bold;
+}
+.date{
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: gray;
+}
+.middletext{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.bottomtext{
+    font-size: 14px;
+    color: gray;
+}

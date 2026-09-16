@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexdivs</title>
+    </head>
+    <body>
+        <div class="container" style="display: flex;
+                                width: 300px;
+                                height: 100px;
+                                border-color: gray;
+                                border-style: solid;
+                                border-width: 1px;">
+
+            <div class="pinky" style="display: flex;
+                                background-color: lightpink;
+                                width: 100px;
+                                height: 100px;">
+                                    <div style="display: flex;
+                                                align-items: center;
+                                                margin-left: 25px;
+                                                ">item 1</div>
+            </div>
+            <div class="rainbow" style="display: flex;
+                                background-color: lightblue;
+                                width: 200px;
+                                height: 100px;">
+            </div>
+        </div>
+
+        <div class="container" style="display: flex;
+                                margin-top: 30px;
+                                width: 300px;
+                                height: 100px;
+                                border-color: gray;
+                                border-style: solid;
+                                border-width: 1px;">
+
+            <div class="pinky" style="display: flex;
+                                background-color: lightpink;
+                                width: 100px;
+                                height: 100px;">
+            </div>
+            <div class="rainbow" style="display: flex;
+                                flex-direction: column;
+                                background-color: lightblue;
+                                width: 200px;
+                                height: 100px;">
+                                    <div style="display: flex;"">item1</div>
+
+                                    <div style="display: flex;
+                                                align-items: center;
+                                                width: 200px;
+                                                justify-content: space-between;
+                                                ">
+                                                <div>row2</div>
+                                                <div>row2</div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

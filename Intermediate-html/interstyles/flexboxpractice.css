@@ -1,0 +1,51 @@
+.differentwidth{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.item1{
+    width: 75px;
+    background-color: lightblue;
+}
+.item2{
+    width: 100px;
+    background-color: lightpink;
+}
+
+.item3{
+    width: 50px;
+    background-color: lightpink;
+}
+.item4{
+    flex: 1;
+    background-color: lightblue;
+}
+.item5{
+    width: 75px;
+    background-color: lightpink;
+}
+
+.spaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.pink{
+    width: 75px;
+    background-color: lightpink;
+}
+.blue{
+    width: 75px;
+    background-color: lightblue;
+}
+
+.flexcorner{
+    display: flex;
+    flex-direction: row;
+    border: 1px gray;
+    border-style: solid;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
